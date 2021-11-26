@@ -439,7 +439,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &1103847691
 BoxCollider2D:
@@ -448,7 +448,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103847685}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -532,7 +532,7 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: f57127cfcc32ab9419af130b6a9211fb, type: 3}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1809248028
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -690,7 +690,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4120784616010233503, guid: 0b27dc087644b5f438044755fa68f2b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 391.995
+      value: 391.755
       objectReference: {fileID: 0}
     - target: {fileID: 4120784616010233503, guid: 0b27dc087644b5f438044755fa68f2b2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -725,8 +725,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4740166934052798900, guid: 0b27dc087644b5f438044755fa68f2b2, type: 3}
+      propertyPath: m_Height
+      value: 3.826294
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740166934052798900, guid: 0b27dc087644b5f438044755fa68f2b2, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740166934052798900, guid: 0b27dc087644b5f438044755fa68f2b2, type: 3}
+      propertyPath: m_Center.y
+      value: -0.15045166
+      objectReference: {fileID: 0}
+    - target: {fileID: 4740166934052798900, guid: 0b27dc087644b5f438044755fa68f2b2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7512086664684568538, guid: 0b27dc087644b5f438044755fa68f2b2, type: 3}
       propertyPath: m_Name
@@ -740,6 +752,5 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.1
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 4740166934052798900, guid: 0b27dc087644b5f438044755fa68f2b2, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b27dc087644b5f438044755fa68f2b2, type: 3}
